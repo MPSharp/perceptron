@@ -56,7 +56,7 @@ class Perceptron1(object):
         return y_hat
 
 
-    def score(sef, predictions, labels):
+    def score(self, predictions, labels):
         return accuracy_score(labels, predictions)
     
     
